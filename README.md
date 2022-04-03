@@ -4,7 +4,8 @@ This is a template automation project with WDIO and Typescript.
 There are 2 options to run the project.
 
 
-1. MacBook M1
+**1. MacBook M1
+**
 
 _ Install npm and node 14.
 
@@ -15,7 +16,8 @@ _ Go to project and run: npm install
 _ Run tests: npx wdio run test/wdio.conf.ts
 
  
-2. Non MacBook M1
+**2. Non MacBook M1
+**
 
 _ Install Docker.
 
