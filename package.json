@@ -1,0 +1,31 @@
+{
+  "name": "typescript-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run test/wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yenh-cs/typescript-poc.git"
+  },
+  "author": "Yen Hoang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yenh-cs/typescript-poc/issues"
+  },
+  "homepage": "https://github.com/yenh-cs/typescript-poc#readme",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.19.1",
+    "@wdio/cli": "^7.19.3",
+    "@wdio/jasmine-framework": "^7.19.3",
+    "@wdio/local-runner": "^7.19.3",
+    "@wdio/selenium-standalone-service": "^7.6.0",
+    "@wdio/spec-reporter": "^7.19.1",
+    "chromedriver": "^100.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}

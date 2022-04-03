@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/jasmine-framework"
+    ]
+  },
+  "include": [
+    "./test/**/*.ts"
+  ]
+}
